@@ -1,0 +1,42 @@
+{
+ "file": "avatar_print.stl",
+ "verts": 22449,
+ "tris": 44962,
+ "watertight": true,
+ "components": 1,
+ "height_mm": 1168.363,
+ "height_expected_mm": 1168.363,
+ "height_drift_mm": 0.0002,
+ "reference": "avatar_clean.glb",
+ "roughness_new": {
+  "mean_fold_deg": 88.16,
+  "pct_gt45": 82.53,
+  "pct_gt80": 57.0,
+  "sampled_pairs": 67443
+ },
+ "roughness_ref": {
+  "mean_fold_deg": 88.78,
+  "pct_gt45": 83.13,
+  "pct_gt80": 57.76,
+  "sampled_pairs": 49738
+ },
+ "iou": 0.9998,
+ "octant_iou": {
+  "0": 1.0,
+  "1": 1.0,
+  "2": 1.0,
+  "3": 1.0,
+  "4": 1.0,
+  "5": 0.9994,
+  "6": 1.0,
+  "7": 0.9997
+ },
+ "worst_octant_iou": 0.9994,
+ "checks": {
+  "watertight": true,
+  "exactly_one_component": true,
+  "height_within_tol": true,
+  "iou_above_min": true
+ },
+ "pass": true
+}
